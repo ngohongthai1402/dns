@@ -1,23 +1,26 @@
-</plist>
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
 
     <key>PayloadDisplayName</key>
-    <string>NHT DNS🔫</string>
-    <key>🚀 Spsed free nhtspeed.bio.link</key>
+    <string>NHT DNS GOD MODE🔫</string>
+
+    <key>PayloadDescription</key>
     <string>
-✔ Chống thu hồi chứng chỉ mạnh
-✔ Không hao pin, ổn định hơn VPN
-✔ Giảm nóng máy, tối ưu mạng
-✔ Hỗ trợ iPhone, iPad
-✔ Tương thích mọi iOS
+🚀 NHT DNS GOD MODE
+
+✔ Chặn thu hồi gần tối đa
+✔ Tối ưu mạng + giảm nóng máy
+✔ Ổn định, không hao pin
+✔ Không cần app / NextDNS
+
+🌐 nhtspeed.bio.link
 📞 Zalo: 0349 3333 97
     </string>
 
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.f4b567.maxpro</string>
+    <string>com.nht.godmode</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -26,7 +29,7 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>F1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+    <string>1A2B3C4D-DB73-40F6-BD22-2E42A43A3C94</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
@@ -35,14 +38,16 @@
     <array>
       <dict>
 
+        <!-- DNS SIÊU ỔN ĐỊNH -->
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
           <string>HTTPS</string>
           <key>ServerURL</key>
-          <string>https://apple.dns.nextdns.io/f4b567</string>
+          <string>https://dns.cloudflare.com/dns-query</string>
         </dict>
 
+        <!-- GOD RULE -->
         <key>OnDemandRules</key>
         <array>
 
@@ -56,10 +61,36 @@
                 <string>NeverConnect</string>
                 <key>Domains</key>
                 <array>
+
+                  <!-- CHECK NETWORK -->
                   <string>captive.apple.com</string>
-                  <string>3gppnetwork.org</string>
                   <string>connectivitycheck.gstatic.com</string>
                   <string>clients3.google.com</string>
+
+                  <!-- APPLE REVOKE CORE -->
+                  <string>ocsp.apple.com</string>
+                  <string>ocsp2.apple.com</string>
+                  <string>crl.apple.com</string>
+                  <string>certs.apple.com</string>
+                  <string>valid.apple.com</string>
+                  <string>ppq.apple.com</string>
+
+                  <!-- APPLE EXTRA -->
+                  <string>gdmf.apple.com</string>
+                  <string>mesu.apple.com</string
+                  <string>xp.apple.com</string>
+
+                  <!-- CERT GLOBAL -->
+                  <string>ocsp.int-x3.letsencrypt.org</string>
+                  <string>ocsp.r2m02.amazontrust.com</string>
+                  <string>ocsp.digicert.com</string>
+
+                  <!-- TRACKING / GIẢM NÓNG -->
+                  <string>metrics.apple.com</string>
+                  <string>analytics.apple.com</string>
+                  <string>log-aggregator.apple.com</string>
+                  <string>stats.gc.apple.com</string>
+
                 </array>
               </dict>
             </array>
@@ -73,13 +104,13 @@
         </array>
 
         <key>PayloadDisplayName</key>
-        <string>Chặn thu hồi ✅</string>
+        <string>GOD BLOCK👑</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.f4b567.dns.max</string>
+        <string>com.nht.god.inner</string>
 
         <key>PayloadUUID</key>
-        <string>E2E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+        <string>5E6F7G8H-DB73-40F6-BD22-2E42A43A3C94</string>
 
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
