@@ -7,17 +7,7 @@
     <string>NHT DNS GOD MODE🔫</string>
 
     <key>PayloadDescription</key>
-    <string>
-🚀 NHT DNS GOD MODE
-
-✔ Chặn thu hồi gần tối đa
-✔ Tối ưu mạng + giảm nóng máy
-✔ Ổn định, không hao pin
-✔ Không cần app / NextDNS
-
-🌐 nhtspeed.bio.link
-📞 Zalo: 0349 3333 97
-    </string>
+    <string>NHT DNS GOD MODE - Chan thu hoi + toi uu mang - Zalo 0349 3333 97</string>
 
     <key>PayloadIdentifier</key>
     <string>com.nht.godmode</string>
@@ -29,7 +19,7 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>1A2B3C4D-DB73-40F6-BD22-2E42A43A3C94</string>
+    <string>1A2B3C4D-1234-4F6A-ABCD-2E42A43A3C94</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
@@ -38,7 +28,6 @@
     <array>
       <dict>
 
-        <!-- DNS SIÊU ỔN ĐỊNH -->
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
@@ -47,7 +36,6 @@
           <string>https://dns.cloudflare.com/dns-query</string>
         </dict>
 
-        <!-- GOD RULE -->
         <key>OnDemandRules</key>
         <array>
 
@@ -62,12 +50,9 @@
                 <key>Domains</key>
                 <array>
 
-                  <!-- CHECK NETWORK -->
                   <string>captive.apple.com</string>
                   <string>connectivitycheck.gstatic.com</string>
-                  <string>clients3.google.com</string>
 
-                  <!-- APPLE REVOKE CORE -->
                   <string>ocsp.apple.com</string>
                   <string>ocsp2.apple.com</string>
                   <string>crl.apple.com</string>
@@ -75,21 +60,16 @@
                   <string>valid.apple.com</string>
                   <string>ppq.apple.com</string>
 
-                  <!-- APPLE EXTRA -->
                   <string>gdmf.apple.com</string>
-                  <string>mesu.apple.com</string
+                  <string>mesu.apple.com</string>
                   <string>xp.apple.com</string>
 
-                  <!-- CERT GLOBAL -->
                   <string>ocsp.int-x3.letsencrypt.org</string>
                   <string>ocsp.r2m02.amazontrust.com</string>
                   <string>ocsp.digicert.com</string>
 
-                  <!-- TRACKING / GIẢM NÓNG -->
                   <string>metrics.apple.com</string>
                   <string>analytics.apple.com</string>
-                  <string>log-aggregator.apple.com</string>
-                  <string>stats.gc.apple.com</string>
 
                 </array>
               </dict>
@@ -110,7 +90,7 @@
         <string>com.nht.god.inner</string>
 
         <key>PayloadUUID</key>
-        <string>5E6F7G8H-DB73-40F6-BD22-2E42A43A3C94</string>
+        <string>AB12CD34-5678-4F6A-BCDE-1234567890AB</string>
 
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
