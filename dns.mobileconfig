@@ -2,39 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-
-    <key>PayloadType</key>
-    <string>Configuration</string>
-
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-
-    <key>PayloadIdentifier</key>
-    <string>com.nht.dns</string>
-
-    <key>PayloadUUID</key>
-    <string>f5eed13a-ec70-4b09-a80b-c77f85e9ea2d</string>
-
-    <key>PayloadDisplayName</key>
-    <string>NHT DNS🔫</string>
-
-    <key>PayloadDescription</key>
-    <string>
-NHT DNS🔫:
-- Chặn thu hồi chứng chỉ 90%
-- Không hao pin, ổn định hơn VPN
-- Hỗ trợ Speed Coin Master, iPhone, iPad
-- Hỗ trợ tất cả phiên bản iOS
-- Mua chứng chỉ để dùng lâu dài
-- Zalo 0349 3333 97
-    </string>
-
-    <key>PayloadRemovalDisallowed</key>
-    <false/>
-
     <key>PayloadContent</key>
     <array>
-
         <!-- DNS Forge -->
         <dict>
             <key>PayloadType</key>
@@ -42,12 +11,11 @@ NHT DNS🔫:
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.nht.dnsforge</string>
+            <string>com.example.dnsforge</string>
             <key>PayloadUUID</key>
             <string>1702-VIP11</string>
             <key>PayloadDisplayName</key>
             <string>Adblock DNS VIP01</string>
-
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -73,12 +41,11 @@ NHT DNS🔫:
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.nht.adguard</string>
+            <string>com.example.adguard</string>
             <key>PayloadUUID</key>
             <string>1702-VIP22</string>
             <key>PayloadDisplayName</key>
             <string>Adblock DNS VIP02</string>
-
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -104,12 +71,11 @@ NHT DNS🔫:
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.nht.adguard.family</string>
+            <string>com.example.adguard.family</string>
             <key>PayloadUUID</key>
             <string>1702-VIP33</string>
             <key>PayloadDisplayName</key>
             <string>Adblock DNS VIP03</string>
-
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -129,6 +95,25 @@ NHT DNS🔫:
         </dict>
 
     </array>
-
-</dict>
+  <key>PayloadDescription</key>
+  <string>
+- Chặn thu hồi chứng chỉ 90%
+- Không bị hao pin và thiếu ổn định như VPN
+- Hỗ trợ cài Speed Coin Master, iPhone, iPad
+- Hỗ trợ tất cả phiên bản iOS thấp tới cao<br>
+- Mua chứng chỉ để xài ổn định lâu dài hơn
+- Zalo 0349 3333 97
+		<key>PayloadDisplayName</key>
+		<string>NHT DNS🔫</string>
+		<key>PayloadIdentifier</key>
+		<string>adblock</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>f5eed13a-ec70-4b09-a80b-c77f85e9ea2d</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
 </plist>
