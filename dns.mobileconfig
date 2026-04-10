@@ -7,16 +7,16 @@
 <string>NHT DNS🔫</string>  
 
 <key>PayloadDescription</key>  
-<string>🌐nhtspeed.bio.link&#10;
-✔ Không hao pin, ổn định hơn VPN&#10;
-✔ Chặn thu hồi chứng chỉ an toàn&#10;
-✔ Tương thích mọi phiên bản iOS&#10;
-✔ Tăng tốc + giảm delay&#10;
-✔ Hỗ trợ iPhone, iPad&#10;
+<string>🌐nhtspeed.bio.link
+✔ Không hao pin, ổn định hơn
+✔ Chặn thu hồi chứng chỉ an toàn
+✔ Tương thích mọi phiên bản iOS
+✔ Tăng tốc + giảm delay
+✔ Hỗ trợ iPhone, iPad
 💬 Zalo: 0349 3333 97</string>
 
 <key>PayloadIdentifier</key>  
-<string>com.nht.dns.prosafe</string>  
+<string>com.nht.dns.combo</string>  
 
 <key>PayloadScope</key>  
 <string>System</string>  
@@ -25,13 +25,13 @@
 <string>Configuration</string>  
 
 <key>PayloadUUID</key>  
-<string>PROSAFE-1234-5678-ABCD-998877665544</string>  
+<string>COMBO-1234-5678-ABCD-112233445566</string>  
 
 <key>PayloadVersion</key>  
 <integer>1</integer>  
 
 <key>PayloadOrganization</key>  
-<string>Speed I am NHT✅</string>  
+<string>I AM NHT PRO🚀</string>  
 
 <key>PayloadContent</key>  
 <array>  
@@ -44,13 +44,13 @@
         <integer>1</integer>  
 
         <key>PayloadIdentifier</key>  
-        <string>com.nht.dns.secure</string>  
+        <string>com.nht.dns.combo.secure</string>  
 
         <key>PayloadUUID</key>  
-        <string>DNS-PRO-0001-0002-0003</string>  
+        <string>DNS-COMBO-0001-0002</string>  
 
         <key>PayloadDisplayName</key>  
-        <string>Chặn thu hồi iOS ✅ (Safe)</string>  
+        <string>Ultra DNS Combo ⚡</string>  
 
         <key>DNSSettings</key>  
         <dict>  
@@ -59,15 +59,15 @@
             <key>DNSProtocol</key>  
             <string>HTTPS</string>  
 
-            <!-- DNS chính -->
+            <!-- DNS CHÍNH: NextDNS -->
             <key>ServerURL</key>  
+            <string>https://dns.nextdns.io/f4b567</string>  
+
+            <!-- DNS PHỤ: AdGuard -->
+            <key>FallbackServerURL</key>  
             <string>https://dns.adguard.com/dns-query</string>  
 
-            <!-- DNS phụ -->
-            <key>FallbackServerURL</key>  
-            <string>https://1.1.1.1/dns-query</string>  
-
-            <!-- Tự chuyển khi lỗi -->
+            <!-- Failover -->
             <key>AllowFailover</key>  
             <true/>  
 
@@ -79,12 +79,6 @@
                 <string>ocsp.apple.com</string>  
                 <string>ocsp2.apple.com</string>  
                 <string>crl.apple.com</string>  
-
-                <!-- ❌ ĐÃ BỎ (tránh lỗi) -->
-                <!-- certs.apple.com -->
-                <!-- valid.apple.com -->
-                <!-- gdmf.apple.com -->
-                <!-- mesu.apple.com -->
 
                 <!-- SSL -->
                 <string>ocsp.int-x3.letsencrypt.org</string>  
