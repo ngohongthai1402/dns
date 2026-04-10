@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
+<dict>
 
     <key>PayloadDisplayName</key>
-    <string>NHT DNS GOD MODE🔫</string>
+    <string>NHT DNS⚡ PRO MAX</string>
 
     <key>PayloadDescription</key>
-    <string>NHT DNS GOD MODE - Chan thu hoi + toi uu mang - Zalo 0349 3333 97</string>
+    <string>
+🚀 nhtspeed.bio.link
+✔ Chặn thu hồi chứng chỉ Apple mạnh
+✔ Chặn quảng cáo toàn hệ thống
+✔ Tối ưu mạng, giảm lag
+✔ Không hao pin như VPN
+✔ Hỗ trợ iPhone, iPad
+📞 Zalo: 0349 3333 97
+    </string>
 
     <key>PayloadIdentifier</key>
-    <string>com.nht.godmode</string>
+    <string>com.nht.dns.promax</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -19,90 +27,79 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>1A2B3C4D-1234-4F6A-ABCD-2E42A43A3C94</string>
+    <string>9A1B2C3D-4E5F-6789-ABCD-112233445566</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
 
     <key>PayloadContent</key>
     <array>
-      <dict>
 
-        <key>DNSSettings</key>
         <dict>
-          <key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerURL</key>
-          <string>https://dns.cloudflare.com/dns-query</string>
-        </dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
 
-        <key>OnDemandRules</key>
-        <array>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
 
-          <dict>
-            <key>Action</key>
-            <string>EvaluateConnection</string>
-            <key>ActionParameters</key>
-            <array>
-              <dict>
-                <key>DomainAction</key>
-                <string>NeverConnect</string>
-                <key>Domains</key>
+            <key>PayloadIdentifier</key>
+            <string>com.nht.dns.main</string>
+
+            <key>PayloadUUID</key>
+            <string>ABC12345-6789-4DEF-ABCD-998877665544</string>
+
+            <key>PayloadDisplayName</key>
+            <string>Chặn thu hồi MAX🔥</string>
+
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+
+                <!-- DNS nhanh, ổn định -->
+                <key>ServerURL</key>
+                <string>https://dns.adguard.com/dns-query</string>
+
+                <!-- Domain cần chặn -->
+                <key>SupplementalMatchDomains</key>
                 <array>
 
-                  <string>captive.apple.com</string>
-                  <string>connectivitycheck.gstatic.com</string>
+                    <!-- Apple revoke -->
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>valid.apple.com</string>
+                    <string>ppq.apple.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>mesu.apple.com</string>
 
-                  <string>ocsp.apple.com</string>
-                  <string>ocsp2.apple.com</string>
-                  <string>crl.apple.com</string>
-                  <string>certs.apple.com</string>
-                  <string>valid.apple.com</string>
-                  <string>ppq.apple.com</string>
+                    <!-- SSL revoke ngoài -->
+                    <string>ocsp.int-x3.letsencrypt.org</string>
+                    <string>ocsp.r2m02.amazontrust.com</string>
 
-                  <string>gdmf.apple.com</string>
-                  <string>mesu.apple.com</string>
-                  <string>xp.apple.com</string>
-
-                  <string>ocsp.int-x3.letsencrypt.org</string>
-                  <string>ocsp.r2m02.amazontrust.com</string>
-                  <string>ocsp.digicert.com</string>
-
-                  <string>metrics.apple.com</string>
-                  <string>analytics.apple.com</string>
+                    <!-- Quảng cáo -->
+                    <string>doubleclick.net</string>
+                    <string>googlesyndication.com</string>
+                    <string>adservice.google.com</string>
+                    <string>ads.yahoo.com</string>
+                    <string>facebookads.com</string>
+                    <string>ads.twitter.com</string>
 
                 </array>
-              </dict>
+            </dict>
+
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
             </array>
-          </dict>
 
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-          </dict>
+        </dict>
 
-        </array>
-
-        <key>PayloadDisplayName</key>
-        <string>GOD BLOCK👑</string>
-
-        <key>PayloadIdentifier</key>
-        <string>com.nht.god.inner</string>
-
-        <key>PayloadUUID</key>
-        <string>AB12CD34-5678-4F6A-BCDE-1234567890AB</string>
-
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
-
-        <key>PayloadOrganization</key>
-        <string>NHT</string>
-
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-
-      </dict>
     </array>
 
-  </dict>
+</dict>
 </plist>
