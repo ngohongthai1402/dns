@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
+<?xml version="1.0" encoding="UTF-8"?>  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  <plist version="1.0">  
+<dict>  <key>PayloadDisplayName</key>  
+<string>NHT DNS🔫</string>  
+<key>PayloadDescription</key>  
+<string>🚀 nhtspeed.bio.link&#10;
 
-    <key>PayloadDisplayName</key>
-    <string>NHT DNS🔫</string>
-    <key>PayloadDescription</key>
-    <string>🚀 nhtspeed.bio.link&#10;
 ✔ Chặn thu hồi chứng chỉ
 ✔ Không hao pin, ổn định hơn VPN
 ✔ Hỗ trợ iPhone, iPad
@@ -14,86 +11,86 @@
 ✔ Cài speed liên hệ ở dưới
 💬 Zalo: 0349 3333 97</string>
 
-    <key>PayloadIdentifier</key>
-    <string>com.nht.dns.vipreal</string>
+<key>PayloadIdentifier</key>  
+<string>com.nht.dns.vipreal</string>  
 
-    <key>PayloadScope</key>
-    <string>System</string>
+<key>PayloadScope</key>  
+<string>System</string>  
 
-    <key>PayloadType</key>
-    <string>Configuration</string>
+<key>PayloadType</key>  
+<string>Configuration</string>  
 
-    <key>PayloadUUID</key>
-    <string>7F3A9C21-55B2-4D8F-9A77-1122AABBCCDD</string>
+<key>PayloadUUID</key>  
+<string>7F3A9C21-55B2-4D8F-9A77-1122AABBCCDD</string>  
 
-    <key>PayloadVersion</key>
-    <integer>1</integer>
+<key>PayloadVersion</key>  
+<integer>1</integer>  
 
-    <key>PayloadOrganization</key>
-    <string>NGÔ HỒNG THÁI✅</string>
+<key>PayloadOrganization</key>  
+<string>NGÔ HỒNG THÁI✅</string>  
 
-    <key>PayloadContent</key>
-    <array>
+<key>PayloadContent</key>  
+<array>  
 
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
+    <dict>  
+        <key>PayloadType</key>  
+        <string>com.apple.dnsSettings.managed</string>  
 
-            <key>PayloadVersion</key>
-            <integer>1</integer>
+        <key>PayloadVersion</key>  
+        <integer>1</integer>  
 
-            <key>PayloadIdentifier</key>
-            <string>com.nht.dns.secure</string>
+        <key>PayloadIdentifier</key>  
+        <string>com.nht.dns.secure</string>  
 
-            <key>PayloadUUID</key>
-            <string>AA11BB22-CC33-DD44-EE55-FF6677889900</string>
+        <key>PayloadUUID</key>  
+        <string>AA11BB22-CC33-DD44-EE55-FF6677889900</string>  
 
-            <key>PayloadDisplayName</key>
-            <string>Chặn thu hồi iOS ✅</string>
+        <key>PayloadDisplayName</key>  
+        <string>Chặn thu hồi iOS ✅</string>  
 
-            <key>DNSSettings</key>
-            <dict>
+        <key>DNSSettings</key>  
+        <dict>  
 
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
+            <key>DNSProtocol</key>  
+            <string>HTTPS</string>  
 
-                <!-- DNS nhanh + sạch -->
-                <key>ServerURL</key>
-                <string>https://dns.adguard.com/dns-query</string>
+            <!-- DNS nhanh + sạch -->  
+            <key>ServerURL</key>  
+            <string>https://dns.adguard.com/dns-query</string>  
 
-                <!-- Domain chặn -->
-                <key>SupplementalMatchDomains</key>
-                <array>
+            <!-- Domain chặn -->  
+            <key>SupplementalMatchDomains</key>  
+            <array>  
 
-                    <!-- Apple revoke -->
-                    <string>ocsp.apple.com</string>
-                    <string>ocsp2.apple.com</string>
-                    <string>crl.apple.com</string>
-                    <string>certs.apple.com</string>
-                    <string>valid.apple.com</string>
-                    <string>ppq.apple.com</string>
-                    <string>gdmf.apple.com</string>
-                    <string>mesu.apple.com</string>
+                <!-- Apple revoke -->  
+                <string>ocsp.apple.com</string>  
+                <string>ocsp2.apple.com</string>  
+                <string>crl.apple.com</string>  
+                <string>certs.apple.com</string>  
+                <string>valid.apple.com</string>  
+                <string>ppq.apple.com</string>  
+                <string>gdmf.apple.com</string>  
+                <string>mesu.apple.com</string>  
 
-                    <!-- SSL -->
-                    <string>ocsp.int-x3.letsencrypt.org</string>
-                    <string>ocsp.r2m02.amazontrust.com</string>
+                <!-- SSL -->  
+                <string>ocsp.int-x3.letsencrypt.org</string>  
+                <string>ocsp.r2m02.amazontrust.com</string>  
 
-                    <!-- Ads -->
-                    <string>doubleclick.net</string>
-                    <string>googlesyndication.com</string>
-                    <string>adservice.google.com</string>
-                    <string>ads.yahoo.com</string>
-                    <string>facebookads.com</string>
-                    <string>ads.twitter.com</string>
+                <!-- Ads -->  
+                <string>doubleclick.net</string>  
+                <string>googlesyndication.com</string>  
+                <string>adservice.google.com</string>  
+                <string>ads.yahoo.com</string>  
+                <string>facebookads.com</string>  
+                <string>ads.twitter.com</string>  
 
-                </array>
+            </array>  
 
-            </dict>
+        </dict>  
 
-        </dict>
+    </dict>  
 
-    </array>
+</array>
 
-</dict>
+</dict>  
 </plist>
