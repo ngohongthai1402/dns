@@ -1,24 +1,23 @@
+</plist>
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
 
-    <!-- TÊN HIỂN THỊ NGOÀI -->
     <key>PayloadDisplayName</key>
     <string>NHT DNS🔫</string>
-
-    <!-- MÔ TẢ -->
-    <key>🌐 nhtspeed.bio.link</key>
+    <key>🚀 Spsed free nhtspeed.bio.link</key>
     <string>
 ✔ Chống thu hồi chứng chỉ mạnh
 ✔ Không hao pin, ổn định hơn VPN
+✔ Giảm nóng máy, tối ưu mạng
 ✔ Hỗ trợ iPhone, iPad
-✔ Tương thích mọi phiên bản iOS
+✔ Tương thích mọi iOS
 📞 Zalo: 0349 3333 97
     </string>
 
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.f4b567.profile</string>
+    <string>io.nextdns.f4b567.maxpro</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -27,7 +26,7 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+    <string>F1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
@@ -36,7 +35,6 @@
     <array>
       <dict>
 
-        <!-- DNS SETTINGS -->
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
@@ -45,7 +43,6 @@
           <string>https://apple.dns.nextdns.io/f4b567</string>
         </dict>
 
-        <!-- RULES -->
         <key>OnDemandRules</key>
         <array>
 
@@ -75,15 +72,14 @@
 
         </array>
 
-        <!-- TÊN BÊN TRONG -->
         <key>PayloadDisplayName</key>
-        <string>Chặn thu hồi✅</string>
+        <string>Chặn thu hồi ✅</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.f4b567.dns</string>
+        <string>io.nextdns.f4b567.dns.max</string>
 
         <key>PayloadUUID</key>
-        <string>B2E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+        <string>E2E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
 
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
