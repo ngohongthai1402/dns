@@ -12,6 +12,7 @@
 ✔ Không hao pin, ổn định hơn VPN
 ✔ Hỗ trợ iPhone, iPad
 ✔ Tương thích mọi phiên bản iOS
+✔ Cài speed liên hệ ở dưới
 💬 Zalo: 0349 3333 97</string>
 
     <key>PayloadIdentifier</key>
@@ -30,7 +31,7 @@
     <integer>1</integer>
 
     <key>PayloadOrganization</key>
-    <string>NHT SPEED</string>
+    <string>Ngô Hồng Thái✅</string>
 
     <key>PayloadContent</key>
     <array>
