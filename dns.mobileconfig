@@ -3,15 +3,23 @@
 <plist version="1.0">
   <dict>
 
+    <!-- TÊN HIỂN THỊ NGOÀI -->
     <key>PayloadDisplayName</key>
-<string>NHT DNS🔫 -  https://nhtspeed.bio.link🌐
+    <string>NHT DNS🔫</string>
+
+    <!-- MÔ TẢ -->
+    <key>PayloadDescription</key>
+    <string>
+🚀 NHT DNS🔫 - BẢN PRO
 
 ✔ Chống thu hồi chứng chỉ mạnh
 ✔ Không hao pin, ổn định hơn VPN
 ✔ Hỗ trợ iPhone, iPad
 ✔ Tương thích mọi phiên bản iOS
+
+🌐 https://nhtspeed.bio.link
 📞 Zalo: 0349 3333 97
-</string>
+    </string>
 
     <key>PayloadIdentifier</key>
     <string>io.nextdns.f4b567.profile</string>
@@ -32,6 +40,7 @@
     <array>
       <dict>
 
+        <!-- DNS SETTINGS -->
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
@@ -40,6 +49,7 @@
           <string>https://apple.dns.nextdns.io/f4b567</string>
         </dict>
 
+        <!-- RULES -->
         <key>OnDemandRules</key>
         <array>
 
@@ -69,8 +79,9 @@
 
         </array>
 
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
+        <!-- TÊN BÊN TRONG -->
+        <key>PayloadDisplayName</key>
+        <string>Chặn thu hồi✅</string>
 
         <key>PayloadIdentifier</key>
         <string>io.nextdns.f4b567.dns</string>
@@ -78,8 +89,8 @@
         <key>PayloadUUID</key>
         <string>B2E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
 
-        <key>PayloadDisplayName</key>
-        <string>Chặn thu hồi chứng chỉ✅</string>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
 
         <key>PayloadOrganization</key>
         <string>NHT</string>
