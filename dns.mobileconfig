@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0">  
+<dict>  
 
-<!-- THÔNG TIN CHÍNH -->
-<key>PayloadDisplayName</key>
-<<string>NHT DNS🔫</string>  
+<key>PayloadDisplayName</key>  
+<string>NHT DNS🔫</string>  
 <key>PayloadDescription</key>  
 <string>✔ Chặn thu hồi chứng chỉ
 ✔ Không hao pin, ổn định hơn VPN
@@ -14,109 +13,92 @@
 ✔ Cài speed liên hệ ở dưới
 💬Zalo: 0349 3333 97</string>
 
-<key>PayloadIdentifier</key>
-<string>com.nht.dns.vipreal</string>
+<key>PayloadIdentifier</key>  
+<string>com.nht.dns.prosafe</string>  
 
-<key>PayloadScope</key>
-<string>System</string>
+<key>PayloadScope</key>  
+<string>System</string>  
 
-<key>PayloadType</key>
-<string>Configuration</string>
+<key>PayloadType</key>  
+<string>Configuration</string>  
 
-<key>PayloadUUID</key>
-<string>9A1B2C3D-4E5F-6789-ABCD-112233445566</string>
+<key>PayloadUUID</key>  
+<string>PROSAFE-1234-5678-ABCD-998877665544</string>  
 
-<key>PayloadVersion</key>
-<integer>1</integer>
+<key>PayloadVersion</key>  
+<integer>1</integer>  
 
-<key>PayloadOrganization</key>
-<string>🚀 nhtspeed.bio.link</string>
+<key>PayloadOrganization</key>  
+<string>🚀 nhtspeed.bio.link</string>  
 
-<!-- NỘI DUNG -->
-<key>PayloadContent</key>
-<array>
+<key>PayloadContent</key>  
+<array>  
 
-    <dict>
+    <dict>  
+        <key>PayloadType</key>  
+        <string>com.apple.dnsSettings.managed</string>  
 
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>  
+        <integer>1</integer>  
 
-        <key>PayloadVersion</key>
-        <integer>1</integer>
+        <key>PayloadIdentifier</key>  
+        <string>com.nht.dns.secure</string>  
 
-        <key>PayloadIdentifier</key>
-        <string>com.nht.dns.secure</string>
+        <key>PayloadUUID</key>  
+        <string>DNS-PRO-0001-0002-0003</string>  
 
-        <key>PayloadUUID</key>
-        <string>AA11BB22-CC33-DD44-EE55-FF6677889900</string>
+        <key>PayloadDisplayName</key>  
+        <string>Chặn thu hồi iOS ✅ (Safe)</string>  
 
-        <key>PayloadDisplayName</key>
-        <string>Ultra DNS Shield 🛡️</string>
-
-        <key>DNSSettings</key>
-        <dict>
+        <key>DNSSettings</key>  
+        <dict>  
 
             <!-- Giao thức -->
-            <key>DNSProtocol</key>
-            <string>HTTPS</string>
+            <key>DNSProtocol</key>  
+            <string>HTTPS</string>  
 
             <!-- DNS chính -->
-            <key>ServerURL</key>
-            <string>https://dns.adguard.com/dns-query</string>
+            <key>ServerURL</key>  
+            <string>https://dns.adguard.com/dns-query</string>  
 
             <!-- DNS phụ -->
-            <key>FallbackServerURL</key>
-            <string>https://cloudflare-dns.com/dns-query</string>
+            <key>FallbackServerURL</key>  
+            <string>https://1.1.1.1/dns-query</string>  
 
-            <!-- Tự failover -->
-            <key>AllowFailover</key>
-            <true/>
+            <!-- Tự chuyển khi lỗi -->
+            <key>AllowFailover</key>  
+            <true/>  
 
-            <!-- Áp dụng toàn hệ thống -->
-            <key>MatchDomains</key>
-            <array>
-                <string></string>
-            </array>
+            <!-- Domain chặn -->
+            <key>SupplementalMatchDomains</key>  
+            <array>  
 
-            <!-- DOMAIN CHẶN -->
-            <key>SupplementalMatchDomains</key>
-            <array>
+                <!-- Apple revoke SAFE -->
+                <string>ocsp.apple.com</string>  
+                <string>ocsp2.apple.com</string>  
+                <string>crl.apple.com</string>  
 
-                <!-- Apple revoke FULL -->
-                <string>ocsp.apple.com</string>
-                <string>ocsp2.apple.com</string>
-                <string>crl.apple.com</string>
-                <string>certs.apple.com</string>
-                <string>valid.apple.com</string>
-                <string>ppq.apple.com</string>
-                <string>gdmf.apple.com</string>
-                <string>mesu.apple.com</string>
-                <string>xp.apple.com</string>
-                <string>gs.apple.com</string>
+                <!-- ❌ ĐÃ BỎ (tránh lỗi) -->
+                <!-- certs.apple.com -->
+                <!-- valid.apple.com -->
+                <!-- gdmf.apple.com -->
+                <!-- mesu.apple.com -->
 
                 <!-- SSL -->
-                <string>ocsp.int-x3.letsencrypt.org</string>
-                <string>ocsp.r2m02.amazontrust.com</string>
+                <string>ocsp.int-x3.letsencrypt.org</string>  
 
-                <!-- ADS + TRACKING -->
-                <string>doubleclick.net</string>
-                <string>googlesyndication.com</string>
-                <string>pagead2.googlesyndication.com</string>
-                <string>adservice.google.com</string>
-                <string>ads.yahoo.com</string>
-                <string>facebookads.com</string>
-                <string>ads.twitter.com</string>
-                <string>analytics.google.com</string>
-                <string>tracking.facebook.com</string>
-                <string>app-measurement.com</string>
+                <!-- Ads nhẹ -->
+                <string>doubleclick.net</string>  
+                <string>googlesyndication.com</string>  
+                <string>adservice.google.com</string>  
 
-            </array>
+            </array>  
 
-        </dict>
+        </dict>  
 
-    </dict>
+    </dict>  
 
-</array>
+</array>  
 
-</dict>
+</dict>  
 </plist>
