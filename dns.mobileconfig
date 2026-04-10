@@ -5,13 +5,15 @@
 
 <key>PayloadDisplayName</key>  
 <string>NHT DNS🔫</string>  
+
 <key>PayloadDescription</key>  
-<string>✔ Chặn thu hồi chứng chỉ
-✔ Không hao pin, ổn định hơn VPN
-✔ Hỗ trợ iPhone, iPad
-✔ Tương thích mọi phiên bản iOS
-✔ Cài speed liên hệ ở dưới
-💬Zalo: 0349 3333 97</string>
+<string>🚀 nhtspeed.bio.link&#10;
+✔ Không lỗi App Store, iCloud, ngân hàng&#10;
+✔ Chặn thu hồi chứng chỉ an toàn&#10;
+✔ Không hao pin, ổn định hơn VPN&#10;
+✔ Tăng tốc + giảm delay&#10;
+✔ Hỗ trợ iPhone, iPad&#10;
+💬 Zalo: 0349 3333 97</string>
 
 <key>PayloadIdentifier</key>  
 <string>com.nht.dns.prosafe</string>  
