@@ -7,10 +7,15 @@
     <string>NHT DNS🔫</string>
 
     <key>PayloadDescription</key>
-    <string>🚀 nhtspeed.bio.link&#10;✔ Chặn thu hồi chứng chỉ Apple&#10;✔ Chặn quảng cáo toàn hệ thống&#10;✔ Tối ưu mạng, giảm lag&#10;✔ Không hao pin như VPN&#10;✔ Hỗ trợ iPhone, iPad&#10;💬 Zalo: 0349 3333 97</string>
+    <string>🚀 nhtspeed.bio.link&#10;
+✔ Chặn thu hồi chứng chỉ
+✔ Không hao pin, ổn định hơn VPN
+✔ Hỗ trợ iPhone, iPad
+✔ Tương thích mọi phiên bản iOS
+💬 Zalo: 0349 3333 97</string>
 
     <key>PayloadIdentifier</key>
-    <string>com.nht.dns.promax</string>
+    <string>com.nht.dns.vipreal</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -19,10 +24,13 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>F1E2D3C4-B5A6-4789-ABCD-998877665500</string>
+    <string>7F3A9C21-55B2-4D8F-9A77-1122AABBCCDD</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
+
+    <key>PayloadOrganization</key>
+    <string>NHT SPEED</string>
 
     <key>PayloadContent</key>
     <array>
@@ -35,20 +43,21 @@
             <integer>1</integer>
 
             <key>PayloadIdentifier</key>
-            <string>com.nht.dns.main</string>
+            <string>com.nht.dns.secure</string>
 
             <key>PayloadUUID</key>
-            <string>AABBCCDD-1122-3344-5566-77889900EEFF</string>
+            <string>AA11BB22-CC33-DD44-EE55-FF6677889900</string>
 
             <key>PayloadDisplayName</key>
             <string>Chặn thu hồi iOS ✅</string>
 
             <key>DNSSettings</key>
             <dict>
+
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
 
-                <!-- DNS ổn định hơn -->
+                <!-- DNS nhanh + sạch -->
                 <key>ServerURL</key>
                 <string>https://dns.adguard.com/dns-query</string>
 
