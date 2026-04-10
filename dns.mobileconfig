@@ -1,1 +1,306 @@
-
+"0‚—n	*†H†÷
+ ‚—_0‚—[10
+	`†He�0‚ZÜ	*†H†÷
+ ‚ZÍ‚ZÉ<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerName</key>
+                <string>jhupev9pt7.cloudflare-gateway.com</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>apple.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>ðŸ’µ Revoke Cert Sign - CYLIGHT TEAM</string>
+            <key>PayloadOrganization</key>
+            <string>CYLIGHT TEAM</string>
+            <key>PayloadIdentifier</key>
+            <string>com.cylight.dns1</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>a1b2c3d4-e5f6-7890-abcd-ef1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string>CYLIGHT TEAM - WebClip</string>
+            <key>PayloadIdentifier</key>
+            <string>com.cylight.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>01234567-89ab-cdef-0123-456789abcdef</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Label</key>
+            <string>CYLIGHT TEAM API KEY</string>
+            <key>URL</key>
+            <string>https://hungnguyen9905.bio.link/</string>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Precomposed</key>
+            <true/>
+            <key>Icon</key>
+            <data>
+                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
+            </data>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>CYLIGHT TEAM - Configuration DNS</string>
+    <key>PayloadDescription</key>
+    <string>
+        âš ï¸ Revoke Cert
+        âš ï¸ DNS Update IOS
+        âš ï¸ CYLIGHT TEAM Configuration Profile
+    </string>
+    <key>PayloadIdentifier</key>
+    <string>com.cylight.configuration</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>deadbeef-cafe-babe-0123-456789abcdef</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
+ ‚9Ø0‚L0‚4 9zfÌ'V6.
+ª‡Ên«ã±0
+	*†H†÷
+�0_10	UGB10U
+Sectigo Limited1604U-Sectigo Public Server Authentication Root R460
+210322000000Z
+360321235959Z0`10	UGB10U
+Sectigo Limited1705U.Sectigo Public Server Authentication CA DV R360‚¢0
+	*†H†÷
+�‚�0‚Š‚�–6_Ør3ïäPô@æÙaÊñ-1ØuýY´Ä^í‡ªDô°Êõê¢}p­XÔÜ¸€œûê|
+Ë{ÌÑ±
+š¦Ú¢|îÍ¾àytE^ÅyýDQG×aæøÛOE XñèÄ‰pÕ®Tí×N{/Y‡•Äè8†|½Ñ¡aÙ ™1ÚÃ`ò®
+1î¸_›Ìq[ÿØðÿ~zGÑv^|e’+	ß”ZÂY@:Qµ”æ3®"Ëÿ¯·2î'J;5Œ·WaÜù«v¸/Chi¶_mÜUoà”wÁÑºn•”-ToßÇ¿”‡OìäÓ"VaèæèØq?Ä¨Óû!·þ	öjˆEsOéË.¯°p…'kAÁ¥rŸ]2©Î¬û9—½:"_äN�Ûù¾ž›ó‹<ï®«#®f‡Ð8½sçÙg%Ï »™Š`¶hM^WÚ-|¤TüÇPwªîoõå¸JQ•;Y¹Õ9Å±MÇÃ€Ê×-@hŽ´}ž°ãÓ�£‚0‚}0U#0€VsXd•ù’°*by¡@ˆ!I0UhÀ¯Îö‡¦2W£FQ]Ë'0Uÿ†0Uÿ0ÿ�0U%0++0U 00U �0g0TUM0K0I G E†Chttp://crl.sectigo.com/SectigoPublicServerAuthenticationRootR46.crl0„+x0v0O+0†Chttp://crt.sectigo.com/SectigoPublicServerAuthenticationRootR46.p7c0#+0†http://ocsp.sectigo.com0
+	*†H†÷
+�‚�bÓ‚ô\¾N¡4"‹)#Ý¤,h(I‘9$0¦°e™Që»ÜWnéßk ¼ÍíAÙä#’±¤ ¿Î[;½) aVŸ±wòR¹(Bõüœ²cîí© ö˜Þ«\tŒÑŠo¢:7eè¸Ú±§íâìdßIð±R‰ëXéž#PÕ ê3ò óƒ…‡aáèÃV¢ÑYØßÄS#ï$z‘–Uñ±|³Àn"7¨ ‡š¢ÅE¼O™…á4‡åÕ2HÇrÝ¾ñÇŠÒ(OÅ|z¿˜6•ž÷	•í"­tÁPtÆZUèf9¼¡EÐÃàÔ³H#Ð�€Xø/Ô-s…ÍÉüì©gù…4–�†¯ÑËƒzÆ;Ê¾cŠi.ÃºtéœO4b8
+[=Wù„'¹ðFp‰gG Éý”óúø^4ã/
+6èB,AmêþÇúZ¶a’ãHiíñWÚ÷Ú³O}¾ø_õ=Ðrâ\éßåõºHuã1ñ„:9-åì�os°XI›Cn=ÐçŒÔ‡vp¶¤1ZÛi<T3jvàÞéìÛ:mX+Úê<Ö¯Â(ƒ1ÏÏ¿’­ÝãÊqGo?²j®'3O<ÒŒŠå
+©MÕ”RžáÈX+á$Im‘‰Ó�~5@ž’cºèjëPD°7÷ g2ø$±*ÏV0‚y0‚a �ã|¢ép3œ/?°í6ù
+0
+	*†H†÷
+�0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0
+210322000000Z
+281231235959Z0_10	UGB10U
+Sectigo Limited1604U-Sectigo Public Server Authentication Root R460‚"0
+	*†H†÷
+�‚�0‚
+‚�“¾Õ6RuØ# GBIîc¶·!ýÄ•ÕH+&|SÚyý+·-¤Ô,úê2ÝIÂ¹½H={Z˜T¯ž]1tOüP!Ý¤ÏhOcm%™L*™óH0aú|§JÜ>+Lqª5Œ­ønè;JÙå”Ö‰„ªmÈO3ÌP–7’3Ü_ˆçŸTÙHð˜CÖfýŸ8CÅQ×ã#][çK¾ÝôÈÚ7ÑÖ9¡!Q0ƒ°m×0N–[‘ðp$«¿EdC
+½!:/<éž
+Ë µB'ÌÚo›îd09Í“e!1µ#P37"ã8íø10ÌEþbùÑ]2yB‡ßjÌV@MÎª»ùµvI”ñ'ø‘¥ƒå³c€ÜàU€¦;f´9‡-ÈðÐÑéä
+Mö]WrÅ;GVâÕûaŒÌM€4[·×uÜØHŸÀÁ(ˆ´éÊ§±ñV·{ILYå ¨„)ú8”išIÍyƒzÞ±—îù—x(¤ÈD’é}&¦Xr›yØ_®Å8b4h²†0Žøaž2lõ6Í¢LnìŠ6íòæ™DpÃ|¼œ9À´ák÷ƒ%#WÙ€åIðuïë›T(´!<ü|
+ÿï{kuÿ‹ «úø+Bè8º»ûªý=àóÊßN——)íóVé¥–¬½Ã˜²àù¢Ô¦GC|mÏ�£‚0‚0U#0€ 
+#>–ñìâ¯)ï‚¥Ð0¤´0UVsXd•ù’°*by¡@ˆ!I0Uÿ†0Uÿ0ÿ0U%0++0U 
+00U �0CU<0:08 6 4†2http://crl.comodoca.com/AAACertificateServices.crl04+(0&0$+0†http://ocsp.comodoca.com0
+	*†H†÷
+�‚�o‹í¹˜<=`ÒX�ºÅ%ó/ˆ9hûRô¼Š¿DMïò¥„íÕ!€¾x{µ¤´Â2ê½„pØÌ•Ïß=Z¡¦¿hÎ¥¦-ôÆÅîg^åné8tàvrU‘÷?)Á’2¤^»ÕÔ0WûJ÷2cÆzkF^—´àXºèF­çWwûe3–°#$¼ð
+ÅWLTy9ÓëDçî_UúÙjÛÃB
+SEuÔ=ôÑùïA8ñÊÝÌQ2/88Áˆe­œˆ2§¦‰ÃH4»Òéƒ>ºñÍ&|ý<èUoƒ]oÖÙ}VQ
+‹áPïŒŽQä0hçÍw7…yÕ%ŒÛU0‚20‚ 0
+	*†H†÷
+�0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0
+040101000000Z
+281231235959Z0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0‚"0
+	*†H†÷
+�‚�0‚
+‚�¾@ônáêv‡MEDŽ¾FÈƒÁ*þŽäúó«]PŠ1šÐÅp"ÍI-TcÌ¶nhFSêËL$À¼rNêñ®ôTš
+Ãz²3`âÚ‰Uó"XóÞÜÏïƒ†¢Œ”OŸhò˜F„'Çv¿ãÌ5,‹^de‚ÀH°¨‘ùaŸv P¨‘ÇfµëxbVðŠê1£ ™ý8öö'2Xoõk¸û+¯·ªÌÖc_sŒÚ™¨8¨Ëx6Q¬éžôx:ÏÙBâ˜«/ŸÞïŸ™Iñ-ß¬tM˜µGÅå)ÑùÇbœ¾ƒÇ&{>Š%ÇÀÝæ5h ØÞÒÃ„œ
+^è/É�£À0½0U 
+#>–ñìâ¯)ï‚¥Ð0¤´0Uÿ0Uÿ0ÿ0{Ut0r08 6 4†2http://crl.comodoca.com/AAACertificateServices.crl06 4 2†0http://crl.comodo.net/AAACertificateServices.crl0
+	*†H†÷
+�‚�Vüð›èÿ¤úÖ{ÆD€ÎOÄÅö�XÌ¦¶¼Ihvèæî]ì`ÖPO&Nãæ°¥î¿¼tTA¿ýü¸ÇOZô‰``·JóöñÂ¿Ä¹t†¶-}kÌÒóFÝ/ÆàjÃÃ4,}–ÝZÂ§
+™Á‹«/ó\:Ïl7U	‡ÞS@lXïü¶«enöÜ<àZÆžÙñYH0!elìé!sì›¡à7­ úºÎ§,©,Ôå&«"—`ø^tÔ¢šS½ò©hà¢nÂ×l±£ž¿ëhçVò®òã+8:	µk…×¾-í?·²câõb,‚Ôj�APñ9ƒŸ•é6–˜n0‚0‚û }[Q&´vºÛt¼S
+§0
+	*†H†÷
+�0ˆ10	UUS10U
+New Jersey10UJersey City10U
+The USERTRUST Network1.0,U%USERTrust RSA Certification Authority0
+181102000000Z
+301231235959Z010	UGB10UGreater Manchester10USalford10U
+Sectigo Limited1705U.Sectigo RSA Domain Validation Secure Server CA0‚"0
+	*†H†÷
+�‚�0‚
+‚�Ös3Ö×< Ð�ÒE¸Ö>¢?ÇAî20É°lýôŸË˜-?M‚b.é¸HyûƒN­×2%“·¿¹P?©LÃ@*é9ÿÙÊ2AÚ€&¹#z‡ ãÿ š<•Do‡u@´2“	#>ÒÝ‡o]Qj
+iÅOriÏÓ“Lm £‚~±š¹íÅžÅ7xŸš4ûV.XÄ	d[¼7ÜñŸ(h¨V°’£\Ÿ»ˆ˜$«0…®¯°.žzÁÀBâðêàJÒï´Á@ðo…BJd÷¤0 þ¿.£'ZŽ‹X¸­Ã„cíoVýƒË`4Ät¾æÛáäåÊ_�£‚n0‚j0U#0€Sy¿Zª+JÏT€áØ›Àò²fË0UŒ^ÄT­Šáwé›ù›á¸aá0Uÿ†0Uÿ0ÿ�0U%0++0U 00U �0g0PUI0G0E C A†?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v+j0h0?+0†3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%+0†http://ocsp.usertrust.com0
+	*†H†÷
+�‚�2¿a½HÃOÇºGMøœxÜ€oüÃp´Rš13šWRû1žk¤ïTª‰@hø|ÒÊ±ñU†Çî³6‘†ö9Q¿F¿ º´÷~IÄ*6žäh9z¯”NVo²{;¿
+†½ÍÅw¸8±¢_~ÛŠÜFH¶h
+Ï²µ´â4äg©8f	^Ò¸ü(:@'ÂrN)ý!<|Ïû–,Å1DýíÕ›©ihw|îáÿ¤ù68S9¢„4œó¾¬Õ$7ë#¨xÐÓçï’Gdb9"ïÆ÷¾"…ÆfD$&Ž2È“®žƒ>/ÙùõFŽc¾Áæ´Ü¦Í!¨†
+•Ù.…&ýü±¶WBm•Ñ3ö9‚A8õXÜ€[¤Õ}•xý§›ÿýÅ¨i«&ç§¤‡[©·¸£ —©E…Ý³‹å‰7Ž)
+üö8@Bäû{óÆhbßã˜ôØO‹±iÙ`¼d*ê1·äµ£:›&ã{ýŽ¶™Á8—Y6ö¨t¢†¶^ëÆdêÏ £ùnžº-¶†˜X-É¬%dò^u´8Á®ZFƒêQÊ¶ñ™5k¥j{Æ�°çø¾d²­ÈÂñ¬ãQê¤“àyÈá@É
+[á<Á`*ã—À‰BÊ”ÏF˜i»˜ÐÂÓ
+rKGnå“Ä2(c‡Cä°2>
+ÓK¿#›)A+š“-ñÇ9H<­Z0‚0‚i 9rD:ù"·Q×ÓlÝ15•0
+	*†H†÷
+�0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0
+190312000000Z
+281231235959Z0ˆ10	UUS10U
+New Jersey10UJersey City10U
+The USERTRUST Network1.0,U%USERTrust RSA Certification Authority0‚"0
+	*†H†÷
+�‚�0‚
+‚�€e6ÃÛ³Ð¬W
+víÍ'ÓL­Pƒaâª M	-d	ÜÎ‰ŸÌ=©ìöÏÁÜñÓ±Ö{7(+GÚ9Æ¼:´_¦½}£cB¶vò©;+‘øâoÐì 	>âètÉ´‘ÔbdÛ£ñˆj"<¼þð‡{öäŽÔäQÆgFQË†T?¼3þ~lœÿ½QŽ5¦§fÈrgÛ!f±Ô›xÀP:èÌðÜ¼žLþ¯–5WZ·ÿÎù=·,¶öTÝÈç:M®LŠ·\š´· =Ê"4®~;hfDçNFS›3`÷”¾S7sCó2ÃSïÛªþtNiÇkŒ`“ÞÄÇßá2®Ì“;Qx•g‹î=VþÐió%&k3m÷nGúsCå~¥f±)|2„cU‰Ä
+Á“T0¬Ó}7§ë]:l5\ÛA×Ú©IßØ€Š	“bŽµfÏ%ˆÍ„¸±?¤9ÙžëL•|ók©^ƒÌ¸gâèÌ[‚ÓL³í[ÿÞås¬#;-�¿5Ut	IØIX’6æQ’ó&}M¼ÉìC&Ð¿A_@©DDô™çW‡žPWT¨>ýtc/±Pe	æXB.CL´ð%GYú“Ô&FJP²Þ¾x·ügáÉW„cÖébºÖ_U.ê\Æ(%9¸+©òL—?
+Rõíï/‚�£ò0ï0U#0€ 
+#>–ñìâ¯)ï‚¥Ð0¤´0USy¿Zª+JÏT€áØ›Àò²fË0Uÿ†0Uÿ0ÿ0U 
+00U �0CU<0:08 6 4†2http://crl.comodoca.com/AAACertificateServices.crl04+(0&0$+0†http://ocsp.comodoca.com0
+	*†H†÷
+�‚�‡QÜt!=œŠà'·3Ð.ÌìðæË^Þ"o›uŽžrþäÖþªœ–-ïJ~®ôor<C;À?ë¸ß\ª©Æ®òüØî£{Cö†6|àÍô÷?þÞ¸´Šð‘–þýCd~ýÌÒ¡}}øÉB+¿X‹º¤¢fvˆ‘N‰Î¢MÉ2³ºè¼qñ[ðA˜�
+"å±ùÍ’7í;ñä:¶ùE&u¯»ªï?{w;ÒÄ‘=�Ó\9Û?{
+EÍ“…–/]ßYO?Q½ÕE?íJŽèat#µ
+Ps'DG]‰*k…1Äè©jL€¼jxÏ¸Žvr™þ×‘¡£_•0‚20‚ 0
+	*†H†÷
+�0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0
+040101000000Z
+281231235959Z0{10	UGB10UGreater Manchester10USalford10U
+Comodo CA Limited1!0UAAA Certificate Services0‚"0
+	*†H†÷
+�‚�0‚
+‚�¾@ônáêv‡MEDŽ¾FÈƒÁ*þŽäúó«]PŠ1šÐÅp"ÍI-TcÌ¶nhFSêËL$À¼rNêñ®ôTš
+Ãz²3`âÚ‰Uó"XóÞÜÏïƒ†¢Œ”OŸhò˜F„'Çv¿ãÌ5,‹^de‚ÀH°¨‘ùaŸv P¨‘ÇfµëxbVðŠê1£ ™ý8öö'2Xoõk¸û+¯·ªÌÖc_sŒÚ™¨8¨Ëx6Q¬éžôx:ÏÙBâ˜«/ŸÞïŸ™Iñ-ß¬tM˜µGÅå)ÑùÇbœ¾ƒÇ&{>Š%ÇÀÝæ5h ØÞÒÃ„œ
+^è/É�£À0½0U 
+#>–ñìâ¯)ï‚¥Ð0¤´0Uÿ0Uÿ0ÿ0{Ut0r08 6 4†2http://crl.comodoca.com/AAACertificateServices.crl06 4 2†0http://crl.comodo.net/AAACertificateServices.crl0
+	*†H†÷
+�‚�Vüð›èÿ¤úÖ{ÆD€ÎOÄÅö�XÌ¦¶¼Ihvèæî]ì`ÖPO&Nãæ°¥î¿¼tTA¿ýü¸ÇOZô‰``·JóöñÂ¿Ä¹t†¶-}kÌÒóFÝ/ÆàjÃÃ4,}–ÝZÂ§
+™Á‹«/ó\:Ïl7U	‡ÞS@lXïü¶«enöÜ<àZÆžÙñYH0!elìé!sì›¡à7­ úºÎ§,©,Ôå&«"—`ø^tÔ¢šS½ò©hà¢nÂ×l±£ž¿ëhçVò®òã+8:	µk…×¾-í?·²câõb,‚Ôj�APñ9ƒŸ•é6–˜n0‚0‚í K¨R“÷š/¢sK¨uÐ0
+	*†H†÷
+�0O10	UUS1)0'U
+ Internet Security Research Group10UISRG Root X10
+240313000000Z
+270312235959Z0310	UUS10U
+
+Let's Encrypt10
+UR100‚"0
+	*†H†÷
+�‚�0‚
+‚�ÏWåæÄTí´GþÉ'XvFP(Œ>ˆßÕµ)½ÝµZ¿úöÎ£¾¯�!KbZZ</ÅXö‰ÿŽCëÁµà–o×çº9	ue·Â¯[7&(ç£ô+mÿ«X¼•®@ÿéËWÄµ[x
+a¼çTÆ»I‘ÍnÑ€…î¦e6¼tê¼PLêü!ó8“”º°Ók8ÍzÊRuÈ­v²Âœ]˜E\oa{Æ-î<R†ÙWæ8ßµ’‘šçJÌE¨rUð°æ£ìý§fž?H‹q„qXÉ:úï^ò[D+<tç²GÁjÍš·
+–÷&QT
+ìaö÷õâòŠÈ•
+�£ø0õ0Uÿ†0U%0++0Uÿ0ÿ�0U»¼ÃG¥ä¼©ÆÃ¤r¢5áÈè0U#0€y´Yæ{¶åäs€ˆÈXöé›n02+&0$0"+0†http://x1.i.lencr.org/0U 0
+0g0'U 00  †http://x1.c.lencr.org/0
+	*†H†÷
+�‚�’±çA7ëyæÍâ%á: éD•£\ÏÃ]ý½ pÕ±–("Òò(ÏçÔæCŒ$"ÁB’Ñ	¯ŸKôÈpO ±ZÝöøak'°rc®îâÎKÏ7Ý»£ÔÍç­P­½¿ãì>b6p™1§èÝêbâ®õœÔ=,ªÐœy¾ê=\Dn–1cZ}Ö~O$ K^oÒÔê_3KÖW¶ÊÞQ¸]£	‚týÇxž³¹¬ÚJ+–Ã¶‹bùt¢žÞéo›°Ò Zö…\Â·ÈÕN2Ä¿]¼)ö÷]<SÉ@‹û¶e¹¤!Õ	å„„7‚Î(üvÂ%zFRMÚSr¤'?bp¬¾iH�ûgÛ[¡è×!-×Éö™B9ƒCßw
+ñ%Öº”Tˆ¥ÅŽá™“ykìù1@°Ì2�ßŸ^ç´’«‚‘
+à•ºY;.K_Â·F5R9À½ª¬RÁ" D—™÷ !§¡lqGhÀÊ¦&e|³®Éç”UÂo›<©ù.Å ðvà¾ìÖOØ%ûvè¿æ!èèÌµ¶§Õ¸÷ŸAÏa"Fjƒ¶h—.|êN•Û#ë.È+(„¤`éIôD.;ùÊbWâ]ùÉüz#HŽ¦Õrñ(ú]ÎûíNs”.ÒA”˜™Û§¯p_õ¾û ¿f'l´­úu+>Îž0‚0‚í K¨R“÷š/¢sK¨uÐ0
+	*†H†÷
+�0O10	UUS1)0'U
+ Internet Security Research Group10UISRG Root X10
+240313000000Z
+270312235959Z0310	UUS10U
+
+Let's Encrypt10
+UR100‚"0
+	*†H†÷
+�‚�0‚
+‚�ÏWåæÄTí´GþÉ'XvFP(Œ>ˆßÕµ)½ÝµZ¿úöÎ£¾¯�!KbZZ</ÅXö‰ÿŽCëÁµà–o×çº9	ue·Â¯[7&(ç£ô+mÿ«X¼•®@ÿéËWÄµ[x
+a¼çTÆ»I‘ÍnÑ€…î¦e6¼tê¼PLêü!ó8“”º°Ók8ÍzÊRuÈ­v²Âœ]˜E\oa{Æ-î<R†ÙWæ8ßµ’‘šçJÌE¨rUð°æ£ìý§fž?H‹q„qXÉ:úï^ò[D+<tç²GÁjÍš·
+–÷&QT
+ìaö÷õâòŠÈ•
+�£ø0õ0Uÿ†0U%0++0Uÿ0ÿ�0U»¼ÃG¥ä¼©ÆÃ¤r¢5áÈè0U#0€y´Yæ{¶åäs€ˆÈXöé›n02+&0$0"+0†http://x1.i.lencr.org/0U 0
+0g0'U 00  †http://x1.c.lencr.org/0
+	*†H†÷
+�‚�’±çA7ëyæÍâ%á: éD•£\ÏÃ]ý½ pÕ±–("Òò(ÏçÔæCŒ$"ÁB’Ñ	¯ŸKôÈpO ±ZÝöøak'°rc®îâÎKÏ7Ý»£ÔÍç­P­½¿ãì>b6p™1§èÝêbâ®õœÔ=,ªÐœy¾ê=\Dn–1cZ}Ö~O$ K^oÒÔê_3KÖW¶ÊÞQ¸]£	‚týÇxž³¹¬ÚJ+–Ã¶‹bùt¢žÞéo›°Ò Zö…\Â·ÈÕN2Ä¿]¼)ö÷]<SÉ@‹û¶e¹¤!Õ	å„„7‚Î(üvÂ%zFRMÚSr¤'?bp¬¾iH�ûgÛ[¡è×!-×Éö™B9ƒCßw
+ñ%Öº”Tˆ¥ÅŽá™“ykìù1@°Ì2�ßŸ^ç´’«‚‘
+à•ºY;.K_Â·F5R9À½ª¬RÁ" D—™÷ !§¡lqGhÀÊ¦&e|³®Éç”UÂo›<©ù.Å ðvà¾ìÖOØ%ûvè¿æ!èèÌµ¶§Õ¸÷ŸAÏa"Fjƒ¶h—.|êN•Û#ë.È+(„¤`éIôD.;ùÊbWâ]ùÉüz#HŽ¦Õrñ(ú]ÎûíNs”.ÒA”˜™Û§¯p_õ¾û ¿f'l´­úu+>Îž0‚Õ0‚½ lU«ÛÐ’ÇØžÖ¿0
+	*†H†÷
+�0ˆ10	UUS10U
+New Jersey10UJersey City10U
+The USERTRUST Network1.0,U%USERTrust RSA Certification Authority0
+200130000000Z
+300129235959Z0K10	UAT10U
+ZeroSSL1*0(U!ZeroSSL RSA Domain Secure Site CA0‚"0
+	*†H†÷
+�‚�0‚
+‚�†is~£µ1Ø#ámÝ¤ÓTõëÜ!µ~]R|?1ëž	lÑY8^g~KVu²75Zd¥¾L,$Äm‰ŒÁÅ’Mfƒ÷á!tùËCÁq±«L8}‘*Æÿ‰©èä¡¹²Ú…	‰š8·Î÷NäÑhù
+kwÚ@Ä÷æ_ïûÍòæü=$¨_•dƒ£Yþ
+BÓoPRÃ«É…Z'<¾£�^›ìâTÍc­ÇÜµºqÁ+{@–5ø€«™AèŠFßã|2Eô›EeŒPt 	—ºVuàJ­“juÝä5Ýïˆ/ó]Æ÷\û
+;ÈŸw ’%5-Ô€VÃé^x$ÈÞ´¦¢ÖÏß(gû0¦í
+mZ'ú¾…;ö`­r3ç}Èž*c˜±C†u¹;¤L½7t½Ú>—DÝ„¶ÒäBë£f¾tJµ¥Œ"Y
+‘bf:!æ´'€{íˆÙr2nš­]tUø‰¤ÈãFºÎÈÜEx;6E÷½Þ¯·-5E*ù¬X	„É…Ç¾«B�y9•$¡Öù“g±ìÿ†»‚|é´µçOxRæWOaUé'™8yB¨©--–ÛjGþiV'4%:KIÀJ«vÆ¶i-oîþƒ†ç©Ë"mŸz’Wcè%9J©~hiÁH›@Á¦ãˆ#ÈÐêUiù(KBU÷�£‚u0‚q0U#0€Sy¿Zª+JÏT€áØ›Àò²fË0UÈÙxh¢ÙhÕ=rÞ_
+>Üµ††¦0Uÿ†0Uÿ0ÿ�0U%0++0"U 00
++²1N0g0PUI0G0E C A†?http://crl.usertrust.com/USERTrustRSACertificationAuthority.crl0v+j0h0?+0†3http://crt.usertrust.com/USERTrustRSAAddTrustCA.crt0%+0†http://ocsp.usertrust.com0
+	*†H†÷
+�‚�
+Í�Õz·Ñæ*f0M'ÅM[E•­dDjŸ˜–œEZ-–]Ï[¿=…ÇA1PÛ”$!S8b‡
+$;„îg¢'(«ðëù"ã\¹mHð’Yô2îWØ¼ågbFã¨mR€ß(�?:FðÐ–Ý‚ãÞ*¨õHµëÏÖ%$A“Ð:í· )«F<ßùiÈaíÏ»}w‰ªb!|š]¸§<D$a…éøÛ¤·Bk Êp¢Én:ò¾ìPßúã�8Ýâ5õ¹Ý×­HÈT[›ÏlØèù¡Mp
+Œù³¡ +¡êT¬ûû¹j&"­òÔ`Å5§Öø»Mz•
+9Cl¡Û™ZBÂ‘ƒ#æ2‘É÷Ç›¬¶°ul¦D|o+°ÀM¹h54Ù zœˆ˜‚Ì4`nÖÆ\§£a¤Nñ|.ÏÍ	K‚gÄÕ>´q^A¬ÑBzÅ‘m–’¤F"®Ü)òÊ›ã<É#z%}•@3×Ò&ûÞËÔºí\ µÇ5Éè(Î+åøDb½†¢#¾‚ÑØèI´?vBQt.Àæ<‡ßˆ7–š_+éšuxŠZi1u@œ8ÞuZz[LMtÒpÍ€eþ¶`–#ãzÐkö4Óíï[^Ô	‘ù EdyKÕV¨p{ÝŽÈ…o!²˜q'6Ãö’¸R†H0‚‰0‚. ]“÷1fü0¬Tk)ÖÇÀýŽ0
+*†HÎ=010	UUS10U
+California10U
+San Francisco10U
+CloudFlare, Inc.1806U/CloudFlare Origin SSL ECC Certificate Authority0
+190823210800Z
+290815170000Z010	UUS10U
+California10U
+San Francisco10U
+CloudFlare, Inc.1806U/CloudFlare Origin SSL ECC Certificate Authority0Y0*†HÎ=*†HÎ=B�‘úÁ€.æ†²ÔmÌJ¯/´,EÙàÖ:%@-Ià:ƒÎÊÞ6€Æ’ ônt>‰)}i!mªË~—»E�¡Œ¶²í„Þð£f0d0Uÿ0Uÿ0ÿ0U…0];*pÔíÕ’gýë9´8§0U#0€…0];*pÔíÕ’gýë9´8§0
+*†HÎ=I�0F!�¨¥~{OØ‚Æf<ŽKdÕÄÖxc÷ãòä!3¬y!�å@‹]†YömœÝò°!éÌ2ˆËÕê²vÈ*ü
+âždj0‚‡0‚ï �ÞZ¹-ùÍý]¿«IdÓY»ÿ0
+	*†H†÷
+�0`10	UGB10U
+Sectigo Limited1705U.Sectigo Public Server Authentication CA DV R360
+250803000000Z
+260803235959Z010U
+cylight.click0‚"0
+	*†H†÷
+�‚�0‚
+‚�ªE›ÈºK„,™
+&}[ÕVv«j
+u€Æ3]½Ýu2çüh»ÿT§ØdPÜÅ“vn6�­ó†ö9pÀrÁ)ÝÒùË/!ËìJ£ÐS’(Å5¾+ô¶Þß²°Þ¤þ6Å­m¬¼iÀl žðsÏZ6	¢öÑT(v=WAô!®²=t¨A§í€á±Qû„«¼8R†È‡?öCÔ
+ó3Í,ôËÛŽo'\36cB†„"õÞï!èléÛþÌêÑLµé@ûLô"‰éžæ·‚gruS=²At×YŒ�'·EãYßZR™$é±);�£‚0‚þ0U#0€hÀ¯Îö‡¦2W£FQ]Ë'0Uo<ÎÆ|ÿ…®Åa!`X¢*Æ0Uÿ 0Uÿ0�0U%0++0IU B0@04+²10%0#+https://sectigo.com/CPS0g0„+x0v0O+0†Chttp://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt0#+0†http://ocsp.sectigo.com0+U$0"‚
+cylight.click‚www.cylight.click0‚~
++Öy‚n‚jh�w�Ø	U;”OzÿÈo”O…«°øü^‡U&Ñ.r»EK��˜mè¦±���H0F!�•™µ®iþ}]é¤P¾`t_ÞÂÐ;|Nå{ˆ½1<!�ª^ºÙqF¶ç¤¾ïíß#Ÿt\‡a@^@`ƒË6í–�t�¬«0plëì„1ôÒô‘_B$C±ò¦ŒO<+;§Ã��˜mè¦p���E0C ^Â†$Úõ5àîjVr¿¿}Æõºw8ûqi¾üjÂ}–|
+æXµœã,©U3:[^P¡—gˆ	„©llì{ˆ?�w�×m}Ñ§õwÂÇé_×�¿ù‚É3ZeáÐ³sÀÈÅiw��˜mè¦\���H0F!�¸±Œ�oÚX“ºKéìmmªF{5¥]ÁSNÐ/ñÄ!�ô<5EætìÝ"Ô^g"%#1ß!zY\öxÛ—à·çBF>ÿ0
+	*†H†÷
+�‚�#}f¥´2>ô¿–	™»(½ä˜ƒY(?Þöò’iNPbêëçœ!ÄK”Gž˜O Pˆ\&Àëév bô0Œ.Ùœ§Y~ró,žé^ÂuL<c%™É}Z™>ÈêÝƒÚGXì*úû¨½‹,.P^¼å6Æýš›žE4ôB—„ë”b[¹ü§)b¡
+g4dH×±b×þåá³ºQú‡Ñƒ]l¡P¿‘ÇÏ¬"jC¹Ž5’¿÷•ýÞCðé„xJÂs"î ‘•‚êWŠ¡Ž”]ùdC¸ñAy×‘Pø¿‹¬÷¢ŸÜ:›ÉÕýB ð¸6n÷µ×zÖÚˆvÊšö¡!Ë€u†„‰¸á¥íL³Í|_CjÜíV-.åd†÷oëÑ}ó&¬+p»è˜º7¡ŠJ�wTûºÂ_9”T-þ4µÓvMS¹7µõ‹O•×ük½­ñHT!¤n›¬~HeZó}D†=u‘íˆXÈäÛp2ô»ëÑ7H=»9‡31‚‡0‚ƒ0u0`10	UGB10U
+Sectigo Limited1705U.Sectigo Public Server Authentication CA DV R36�ÞZ¹-ùÍý]¿«IdÓY»ÿ0
+	`†He� ä0	*†H†÷
+	1	*†H†÷
+0	*†H†÷
+	1
+250804155443Z0/	*†H†÷
+	1" Æ½ÊÒQ³ýJ°¯’Æ—þÌK«fôúfÄJ.÷	Ä80y	*†H†÷
+	1l0j0	`†He*0	`†He0	`†He0
+*†H†÷
+0*†H†÷
+�€0
+*†H†÷
+@0+0
+*†H†÷
+(0
+	*†H†÷
+�‚�ž
+�v…K›zóì·ù}^¸ë°R}ôÎW_­ÊÞ©¯TïÿWêåôº¤,”înDü–ˆhÑ•ŠG+3˜
+Ãp˜®D"3ÅBE:¹ÈÄdíG1jž®S–5‡“Oxˆ´ÖÕR@+kd$#G¯ÿðí¾
+ =I¹½`	ÀäôkSÃùæ0fdoÙyqšbnŠ:©è%óõ‘ácjOIRm·Æ*fb­
+ºÐ)§’áSÿ3³ŸîV8J{½¿˜P¬£^|õ¹4fÂ´ôJ6…öŠ2©y…$ð+ÎEKüÙO€t0
+mçÀ9¿e0ôÊ�íá|xY¾NQÃ5"
+ https://cylight.click/dns.mobileconfig#:~:text=0%E2%80%9A%E2%80%94n%06%09*%E2%80%A0H,%C3%AD%C3%A1%7CxY%C2%BENQ%C3%835
