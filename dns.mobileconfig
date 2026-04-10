@@ -96,15 +96,15 @@
 
     </array>
   <key>PayloadDescription</key>
-  <string>NHT DNSðŸ”«:
-- Cháº·n thu há»“i chá»©ng chá»‰ 90%.
-- KhÃ´ng bá»‹ hao pin vÃ  thiáº¿u á»•n Ä‘á»‹nh nhÆ° VPN
-- Há»— trá»£ CÃ i Speed Coin Master, iPhone, iPad
-- Há»— trá»£ táº¥t cáº£ phiÃªn báº£n IOS tháº¥p tá»›i cao.
-- Mua chá»©ng chá»‰ Ä‘á»ƒ xÃ i á»•n Ä‘á»‹nh lÃ¢u dÃ i hÆ¡n.
-- Zalo 0349 3333 97.</string>
+  <string>NHT DNS🔫:
+- Chặn thu hồi chứng chỉ 90%
+- Không bị hao pin và thiếu ổn định như VPN
+- Hỗ trợ cài Speed Coin Master, iPhone, iPad
+- Hỗ trợ tất cả phiên bản iOS thấp tới cao<br>
+- Mua chứng chỉ để xài ổn định lâu dài hơn
+- Zalo 0349 3333 97
 		<key>PayloadDisplayName</key>
-		<string>NHT DNSðŸ”«</string>
+		<string>NHT DNS🔫</string>
 		<key>PayloadIdentifier</key>
 		<string>adblock</string>
 		<key>PayloadRemovalDisallowed</key>
