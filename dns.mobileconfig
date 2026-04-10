@@ -1,119 +1,455 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>PayloadContent</key>
-    <array>
-        <!-- DNS Forge -->
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadIdentifier</key>
-            <string>com.example.dnsforge</string>
-            <key>PayloadUUID</key>
-            <string>1702-VIP11</string>
-            <key>PayloadDisplayName</key>
-            <string>Adblock DNS VIP01</string>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerURL</key>
-                <string>https://dnsforge.de/dns-query</string>
-                <key>ServerName</key>
-                <array>
-                    <string>dnsforge.de</string>
-                </array>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>176.9.93.198</string>
-                    <string>176.9.1.117</string>
-                </array>
-            </dict>
-        </dict>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPEED I AM NHT</title>
 
-        <!-- AdGuard DNS -->
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadIdentifier</key>
-            <string>com.example.adguard</string>
-            <key>PayloadUUID</key>
-            <string>1702-VIP22</string>
-            <key>PayloadDisplayName</key>
-            <string>Adblock DNS VIP02</string>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerURL</key>
-                <string>https://dns.adguard.com/dns-query</string>
-                <key>ServerName</key>
-                <array>
-                    <string>dns.adguard.com</string>
-                </array>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>94.140.14.14</string>
-                    <string>94.140.15.15</string>
-                </array>
-            </dict>
-        </dict>
+<style>
+*{box-sizing:border-box;}
 
-        <!-- AdGuard Family -->
-        <dict>
-            <key>PayloadType</key>
-            <string>com.apple.dnsSettings.managed</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-            <key>PayloadIdentifier</key>
-            <string>com.example.adguard.family</string>
-            <key>PayloadUUID</key>
-            <string>1702-VIP33</string>
-            <key>PayloadDisplayName</key>
-            <string>Adblock DNS VIP03</string>
-            <key>DNSSettings</key>
-            <dict>
-                <key>DNSProtocol</key>
-                <string>HTTPS</string>
-                <key>ServerURL</key>
-                <string>https://dns-family.adguard.com/dns-query</string>
-                <key>ServerName</key>
-                <array>
-                    <string>dns-family.adguard.com</string>
-                </array>
-                <key>ServerAddresses</key>
-                <array>
-                    <string>94.140.14.15</string>
-                    <string>94.140.15.16</string>
-                </array>
-            </dict>
-        </dict>
+body{
+margin:0;
+font-family:-apple-system;
+background:#0f0f0f;
+color:white
+}
 
-    </array>
-  <key>PayloadDescription</key>
-  <string>NHT DNS🔫:
-- Chặn thu hồi chứng chỉ 90%.
-- Không bị hao pin và thiếu ổn định như VPN
-- Hỗ trợ Cài Speed Coin Master, iPhone, iPad
-- Hỗ trợ tất cả phiên bản IOS thấp tới cao.
-- Mua chứng chỉ để xài ổn định lâu dài hơn.
-- Zalo 0349 3333 97.</string>
-		<key>PayloadDisplayName</key>
-		<string>NHT DNS🔫</string>
-		<key>PayloadIdentifier</key>
-		<string>adblock</string>
-		<key>PayloadRemovalDisallowed</key>
-		<false />
-		<key>PayloadType</key>
-		<string>Configuration</string>
-		<key>PayloadUUID</key>
-		<string>f5eed13a-ec70-4b09-a80b-c77f85e9ea2d</string>
-		<key>PayloadVersion</key>
-		<integer>1</integer>
-	</dict>
-</plist>
+/* HEADER */
+header{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:6px;
+padding:15px;
+font-size:20px;
+font-weight:700;
+}
+
+/* TICK */
+.tick{
+width:18px;height:18px;position:relative;
+display:flex;align-items:center;justify-content:center;
+}
+.tick::before{
+content:"";
+position:absolute;
+width:100%;height:100%;
+background:#0a84ff;
+clip-path:polygon(50% 0%,65% 15%,85% 15%,90% 35%,100% 50%,90% 65%,85% 85%,65% 85%,50% 100%,35% 85%,15% 85%,10% 65%,0% 50%,10% 35%,15% 15%,35% 15%);
+box-shadow:0 0 10px #0a84ff;
+animation:spin 3s linear infinite;
+}
+.tick::after{content:"✔";font-size:10px;z-index:1;}
+@keyframes spin{100%{transform:rotate(360deg);}}
+
+/* LOGO */
+.logo{text-align:center}
+.logo img{
+width:120px;border-radius:50%;
+box-shadow:0 0 25px #0a84ff
+}
+
+/* BOX */
+.box{
+margin:15px;
+background:#1c1c1e;
+border-radius:20px;
+padding:15px;
+overflow:hidden; /* FIX TRÀN */
+}
+
+/* MENU */
+.menu-title{
+display:flex;
+justify-content:space-between;
+align-items:center;
+cursor:pointer;
+font-weight:700;
+}
+.arrow{transition:0.3s;}
+.arrow.rotate{transform:rotate(180deg);}
+
+.menu-content{
+max-height:0;
+overflow:hidden;
+opacity:0;
+transition:0.4s ease;
+}
+.menu-content.open{
+max-height:1200px;
+opacity:1;
+margin-top:10px;
+}
+
+/* DOT */
+.menu-dot{
+width:10px;height:10px;
+background:#0a84ff;
+border-radius:50%;
+box-shadow:0 0 10px #0a84ff;
+animation:blink 1s infinite;
+}
+@keyframes blink{
+0%{opacity:1}
+50%{opacity:0.3}
+100%{opacity:1}
+}
+
+/* SPEED */
+.app-item{
+display:flex;
+flex-direction:column;
+align-items:center;
+background:#2c2c2e;
+padding:15px;
+border-radius:18px;
+margin:12px 0;
+}
+.app-item img{
+width:60px;border-radius:15px;
+margin-bottom:10px;
+box-shadow:0 0 15px #0a84ff;
+}
+
+/* FIX NÚT CHUẨN */
+.copy-btn{
+background:#0a84ff;
+box-shadow:0 0 15px #0a84ff;
+padding:14px;
+border-radius:14px;
+width:100%;
+max-width:100%;
+text-align:center;
+cursor:pointer;
+position:relative;
+overflow:hidden;
+margin-top:10px;
+}
+
+/* ripple */
+.copy-btn::after{
+content:"";
+position:absolute;
+width:10px;height:10px;
+background:rgba(255,255,255,0.5);
+border-radius:50%;
+transform:scale(0);
+}
+.copy-btn.ripple::after{
+animation:ripple 0.6s;
+}
+@keyframes ripple{
+0%{transform:scale(0);opacity:1;}
+100%{transform:scale(20);opacity:0;}
+}
+
+/* ESIGN */
+.esign-logo{
+width:90px;border-radius:20px;
+margin:15px auto;
+display:block;
+box-shadow:0 0 25px #0a84ff;
+}
+.esign-btn,.cert-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+background:#0a84ff;
+padding:14px;
+border-radius:14px;
+margin-top:12px;
+font-weight:700;
+box-shadow:0 0 15px #0a84ff;
+cursor:pointer;
+}
+.active-dot{
+width:10px;height:10px;
+background:#00ffcc;
+border-radius:50%;
+box-shadow:0 0 10px #00ffcc;
+animation:blink 1s infinite;
+}
+
+/* VIDEO */
+.video-btn{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:14px;
+border-radius:14px;
+margin-top:10px;
+background:#2c2c2e;
+cursor:pointer;
+}
+.video-btn.active{
+background:#0a84ff;
+box-shadow:0 0 15px #0a84ff;
+}
+.video-left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+.video-controls{
+display:flex;
+gap:10px;
+}
+
+.video{
+max-height:0;
+overflow:hidden;
+opacity:0;
+transition:0.4s;
+text-align:center;
+}
+.video.open{
+max-height:600px;
+opacity:1;
+margin-top:10px;
+}
+.video iframe{
+width:100%;
+max-width:320px;
+height:550px;
+border-radius:15px;
+border:none;
+}
+
+/* TOAST */
+#toast{
+position:fixed;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+background:#111;
+padding:12px 20px;
+border-radius:14px;
+opacity:0;
+transition:0.3s;
+}
+#toast.show{opacity:1;}
+</style>
+
+<script>
+let currentVideo=null;
+let players={};
+let muteState={};
+
+let tag=document.createElement('script');
+tag.src="https://www.youtube.com/iframe_api";
+document.head.appendChild(tag);
+
+function onYouTubeIframeAPIReady(){
+["v1","v2"].forEach(id=>{
+players[id]=new YT.Player(id+"-frame");
+muteState[id]=true;
+});
+}
+
+function toggleMenu(id,arrow){
+let el=document.getElementById(id);
+el.classList.toggle("open");
+arrow.classList.toggle("rotate");
+}
+
+function copyLink(link,btn){
+navigator.clipboard.writeText(link);
+btn.classList.add("ripple");
+setTimeout(()=>btn.classList.remove("ripple"),600);
+
+let t=document.getElementById("toast");
+t.innerHTML="✔ Đã sao chép link";
+t.classList.add("show");
+setTimeout(()=>t.classList.remove("show"),2000);
+}
+
+function downloadDNS(btn){
+btn.classList.add("ripple");
+setTimeout(()=>btn.classList.remove("ripple"),600);
+
+window.location.href='https://raw.githubusercontent.com/ngohongthai1402/dns/ngohongthai/dns.mobileconfig';
+
+let t=document.getElementById("toast");
+t.innerHTML="📥 Đang tải NHT DNS...";
+t.classList.add("show");
+setTimeout(()=>t.classList.remove("show"),2000);
+}
+
+function toggleVideo(id,btn){
+if(currentVideo===id){
+players[id].pauseVideo();
+document.getElementById(id).classList.remove("open");
+btn.classList.remove("active");
+btn.querySelector(".play").innerHTML="▶";
+currentVideo=null;
+return;
+}
+
+for(let v in players){
+players[v].pauseVideo();
+document.getElementById(v).classList.remove("open");
+
+let b=document.querySelector(`[data-id="${v}"]`);
+if(b){
+b.classList.remove("active");
+b.querySelector(".play").innerHTML="▶";
+}
+}
+
+document.getElementById(id).classList.add("open");
+players[id].playVideo();
+
+btn.classList.add("active");
+btn.querySelector(".play").innerHTML="⏸";
+
+currentVideo=id;
+}
+
+function toggleSound(id,icon){
+if(muteState[id]){
+players[id].unMute();
+icon.innerHTML="🔊";
+}else{
+players[id].mute();
+icon.innerHTML="🔇";
+}
+muteState[id]=!muteState[id];
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+Ngô Hồng Thái <span class="tick"></span>
+</header>
+
+<div class="logo">
+<img src="logo.png">
+</div>
+
+<!-- SPEED -->
+<div class="box">
+<div class="menu-title" onclick="toggleMenu('menu1',this.querySelector('.arrow'))">
+<span>DANH SÁCH SPEED</span>
+<span class="arrow">▼</span>
+</div>
+
+<div id="menu1" class="menu-content">
+
+<div class="app-item">
+<img src="logogame.png">
+<div>ĐẾM VÒNG V1</div>
+<div class="copy-btn" onclick="copyLink('https://zsign.s3.vn-hcm-1.vietnix.cloud/ipa/69d541a1e17ae_DV12500.ipa',this)">SAO CHÉP</div>
+</div>
+
+<div class="app-item">
+<img src="logogame.png">
+<div>ĐẾM VÒNG V2</div>
+<div class="copy-btn" onclick="copyLink('https://zsign.s3.vn-hcm-1.vietnix.cloud/ipa/69d54260994f0_DV2-KHOI2500.ipa',this)">SAO CHÉP</div>
+</div>
+
+<div class="app-item">
+<img src="logogame.png">
+<div>SPEED IGG</div>
+<div class="copy-btn" onclick="copyLink('https://zsign.s3.vn-hcm-1.vietnix.cloud/ipa/69d5415744fd8_IGG2500.ipa',this)">SAO CHÉP</div>
+</div>
+
+</div>
+</div>
+
+<!-- DNS -->
+<div class="box">
+<div class="menu-title" onclick="toggleMenu('menuDNS',this.querySelector('.arrow'))">
+<span>DNS CHẶN THU HỒI</span>
+<span class="arrow">▼</span>
+</div>
+
+<div id="menuDNS" class="menu-content" style="text-align:center;">
+
+<div class="copy-btn" onclick="downloadDNS(this)">
+TẢI NHT DNS🔫
+</div>
+
+<div style="font-size:13px;opacity:0.9;margin-top:10px;line-height:1.6;">
+<div>📥 <b>TẢI XONG NHT DNS</b></div>
+<div>⚙️ Vào <b>Cài đặt</b> → <b>Đã tải về hồ sơ</b></div>
+<div>🚀 Ấn <b>NHT DNS🔫</b> → <b>Cài đặt</b></div>
+</div>
+
+</div>
+</div>
+
+<!-- ESIGN -->
+<div class="box">
+<div class="menu-title" onclick="toggleMenu('menu2',this.querySelector('.arrow'))">
+<span style="display:flex;align-items:center;gap:6px;">
+ESIGN AXITAT <span class="menu-dot"></span>
+</span>
+<span class="arrow">▼</span>
+</div>
+
+<div id="menu2" class="menu-content" style="text-align:center;">
+
+<img src="esign.png" class="esign-logo">
+
+<div class="esign-btn"
+onclick="window.location.href='itms-services://?action=download-manifest&url=https://ngohongthai1402.github.io/esign.plist'">
+CÀI ĐẶT APP ESIGN <span class="active-dot"></span>
+</div>
+
+<div class="cert-btn"
+onclick="window.location.href='https://github.com/ngohongthai1402/ngohongthai1402.github.io/raw/refs/heads/main/CertificateAxitat.zip'">
+TẢI FILE CHỨNG CHỈ 📥
+</div>
+
+</div>
+</div>
+
+<!-- VIDEO -->
+<div class="box">
+<div class="menu-title" onclick="toggleMenu('menu3',this.querySelector('.arrow'))">
+<span>VIDEO HƯỚNG DẪN</span>
+<span class="arrow">▼</span>
+</div>
+
+<div id="menu3" class="menu-content">
+
+<div class="video-btn" data-id="v1">
+<div class="video-left" onclick="toggleVideo('v1',this.parentElement)">
+<span class="play">▶</span>
+<span>TẢI ESIGN SPEED MIỄN PHÍ</span>
+</div>
+<div class="video-controls">
+<span onclick="toggleSound('v1',this)">🔇</span>
+</div>
+</div>
+
+<div id="v1" class="video">
+<iframe id="v1-frame" src="https://www.youtube.com/embed/8ynQoiww9d4?enablejsapi=1"></iframe>
+</div>
+
+<div class="video-btn" data-id="v2">
+<div class="video-left" onclick="toggleVideo('v2',this.parentElement)">
+<span class="play">▶</span>
+<span>CẬP NHẬT COIN MASTER</span>
+</div>
+<div class="video-controls">
+<span onclick="toggleSound('v2',this)">🔇</span>
+</div>
+</div>
+
+<div id="v2" class="video">
+<iframe id="v2-frame" src="https://www.youtube.com/embed/e74h1eb3b0c?enablejsapi=1"></iframe>
+</div>
+
+</div>
+</div>
+
+<div id="toast"></div>
+
+</body>
+</html>
