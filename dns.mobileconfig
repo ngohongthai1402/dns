@@ -4,17 +4,14 @@
   <dict>
 
     <key>PayloadDisplayName</key>
-    <string>NHT DNS🔫</string>
+<string>NHT DNS🔫 -  https://nhtspeed.bio.link🌐
 
-    <key>PayloadDescription</key>
-    <string>
 ✔ Chống thu hồi chứng chỉ mạnh
 ✔ Không hao pin, ổn định hơn VPN
 ✔ Hỗ trợ iPhone, iPad
 ✔ Tương thích mọi phiên bản iOS
-
 📞 Zalo: 0349 3333 97
-    </string>
+</string>
 
     <key>PayloadIdentifier</key>
     <string>io.nextdns.f4b567.profile</string>
