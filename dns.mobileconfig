@@ -2,9 +2,9 @@
 <dict>  <key>PayloadDisplayName</key>  
 <string>NHT DNS🔫</string>  
 <key>PayloadDescription</key>  
-<string> 🚀 nhtspeed.bio.link 
-📘 Hướng dẫn tải free tại link bio
-🔒 Mật khẩu giải nén trong video
+<string>📘 Hướng dẫn tải free tại link bio
+➡ Làm đúng các bước hướng dẫn là tải được
+🔒Mật khẩu giải nén trong video
 🔵Kênh update t.me/nhtupdate
 📣Kênh chat nhóm t.me/nhtspeed
 ✔ Chặn thu hồi chứng chỉ
@@ -30,7 +30,7 @@
 <integer>1</integer>  
 
 <key>PayloadOrganization</key>  
-<string>NGÔ HỒNG THÁI✅</string>  
+<string>🚀 nhtspeed.bio.link</string>  
 
 <key>PayloadContent</key>  
 <array>  
