@@ -5,7 +5,6 @@
 
     <key>PayloadDisplayName</key>
     <string>NHT DNS🔫</string>
-
     <key>PayloadDescription</key>
     <string>🚀 nhtspeed.bio.link&#10;
 ✔ Chặn thu hồi chứng chỉ
@@ -31,7 +30,7 @@
     <integer>1</integer>
 
     <key>PayloadOrganization</key>
-    <string>Ngô Hồng Thái✅</string>
+    <string>NGÔ HỒNG THÁI✅</string>
 
     <key>PayloadContent</key>
     <array>
