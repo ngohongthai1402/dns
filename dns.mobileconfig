@@ -16,7 +16,7 @@
             <key>PayloadUUID</key>
             <string>NHT-ADG-01</string>
             <key>PayloadDisplayName</key>
-            <string>NHT DNS🔫</string>
+            <string>NHT DNS - AdGuard (Chặn quảng cáo)</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -36,7 +36,7 @@
             <key>PayloadUUID</key>
             <string>NHT-CF-02</string>
             <key>PayloadDisplayName</key>
-            <string>NHT DNS🔫</string>
+            <string>NHT DNS - Cloudflare (Nhanh & riêng tư)</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -56,7 +56,7 @@
             <key>PayloadUUID</key>
             <string>NHT-GG-03</string>
             <key>PayloadDisplayName</key>
-            <string>NHT DNS🔫</string>
+            <string>NHT DNS - Google (Ổn định cao)</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -69,13 +69,17 @@
     </array>
 
     <key>PayloadDescription</key>
-    <string>
-NHT DNS🔫
-✔ Chống thu hồi chứng chỉ mạnh
-✔ Không hao pin, ổn định hơn VPN
-✔ Hỗ trợ iPhone, iPad
-✔ Tương thích mọi phiên bản iOS
-📞 Zalo: 0349 3333 97
+    <string>🚀 NHT SPEED DNS
+
+🔗 nhtspeed.bio.link
+
+✔ Chống thu hồi chứng chỉ cực mạnh
+✔ Không hao pin - ổn định hơn VPN
+✔ Tăng tốc mạng & giảm lag game
+✔ Hỗ trợ iPhone, iPad (mọi iOS)
+
+📲 Liên hệ:
+Zalo: 0349 3333 97
     </string>
 
     <key>PayloadDisplayName</key>
